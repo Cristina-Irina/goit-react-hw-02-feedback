@@ -9,7 +9,7 @@ export const BtnFeedback = ({
   feedbackType,
 }) => {
   return (
-    <BtnStyled type={type} onClick={onClick} feedbackType={feedbackType}>
+    <BtnStyled type={type} onClick={onClick} $feedbackType={feedbackType}>
       {children}
     </BtnStyled>
   );

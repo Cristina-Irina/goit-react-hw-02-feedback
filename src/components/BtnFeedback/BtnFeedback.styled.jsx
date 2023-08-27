@@ -5,7 +5,7 @@ export const BtnStyled = styled.button`
   height: 36px;
   border-radius: 20px;
   background-color: ${props => {
-    switch (props.feedbackType) {
+    switch (props.$feedbackType) {
       case 'good':
         return '#2BD800';
       case 'neutral':
